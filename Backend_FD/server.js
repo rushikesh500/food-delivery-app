@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.get("/", async(req, res) => {
-  res.send("hi");
+  res.send("Backend");
 });
 
 //api endpoint
