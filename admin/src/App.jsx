@@ -9,7 +9,7 @@ import Order from './pages/Order/order'
 
 const App = () => {
 
-  const url ="https://food-delivery-app-8n36.onrender.com/api/food/list/"
+  const url ="https://food-delivery-app-8n36.onrender.com/"
 
   return (
     <div>
