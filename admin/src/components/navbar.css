@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    height: 80px;
+    
+  
+}
+.logo-text {
+  font-size: 30px;
+  font-weight: 700;
+  color: tomato;
+  letter-spacing: 1px;
+  font-family: "Dela Gothic One", sans-serif;
+  position: relative;
+  top: -8px;
+}
+.logo-text span {
+  color: #1f7a1f;
+}
+.navleft h1 {
+  margin-top: 10px;
+  line-height: 0.8;
+}
+.navleft p{
+  font-weight: 100;
+  font-family: "Dela Gothic One", sans-serif;
+  opacity: 0.7;
+  font-size: 13px;
+}
+.navright img{
+    width: 40px;
+}

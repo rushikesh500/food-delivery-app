@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+body{
+  min-height: 100vh;
+ 
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+ 
+}
+.app-content{
+  display: flex;
+}
+.sidebar{
+  width: 20vw;
+  border: 1px solid #ccc;
+  border-top:none ;
+  min-height: 89vh;
+}

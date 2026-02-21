@@ -1,0 +1,38 @@
+.explore-menu h2{
+    font-weight: 600;
+    color: #262626;
+}
+.explore-menu-list{
+display: flex;
+gap: 30px;
+margin-top: 20px;
+justify-content: space-between;
+text-align: center;
+overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.1s;
+}
+.explore-menu-list-item p{
+    margin-top: 10px;
+    font-size: max(1.4vw,16px);
+    color: #747474;
+    cursor: pointer;
+}
+.explore-menu hr{
+    margin: 30px 0;
+    height: 2px;
+    background-color: gray;
+    border: none;
+}
+.explore-menu-list-item .active{
+    border: 3px solid tomato;
+    padding: 2px;
+}

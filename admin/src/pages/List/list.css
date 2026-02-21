@@ -1,0 +1,44 @@
+.food-list{
+  width: 60%;
+  margin-left:min(80px, 3vw);
+  margin-top:20px ;
+  
+}
+.food-list .title{
+    color: #6d6d6d;
+    font-weight: 500;
+    font-size: larger;
+}
+.list-table{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid #cacaca;
+    font-size: 15px;
+
+}
+.list-title{
+    background-color: tomato;
+    color: white;
+    border-color: tomato;
+    border-radius: 5px;
+}
+.list-table img{
+    width: 40px;
+}
+
+@media (max-width:800px){
+ .food-list{
+  width: 70%;
+  margin-top:13px ;  
+}
+}
+@media (max-width:500px){
+ .list-table{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr  ;
+    gap: 10px;
+}
+}

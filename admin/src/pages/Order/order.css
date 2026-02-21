@@ -1,0 +1,88 @@
+.myOrders {
+  width: 80%;
+  margin: 20px auto;
+
+}
+.orders-title {
+  margin: 0px 20px 20px 20px;
+  font-size: 23px;
+  font-weight: 600;
+  color: tomato;
+}
+.flex-coln{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+  gap: 10px;
+  padding: 18px;
+  margin: 20px;
+  border-radius: 8px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+.myOrders-order {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.flex-coln:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.order-img {
+  width: 45px;
+}
+.order-items {
+  flex: 2;
+  font-size: 16px;
+  color: #555;
+}
+.order-amount {
+  font-weight: 600;
+  min-width: 80px;
+}
+.order-count {
+  color: gray;
+  font-size: 14px;
+}
+.order-status {
+  list-style: disc;
+  padding-left: 20px;
+}
+.order-status  {
+  color: #ff4d4d;
+  font-weight: 500;
+}
+.order-status {
+  margin-top: 10px;
+}
+
+.status-select {
+  width: 180px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid tomato;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+  color: tomato;
+  transition: all 0.3s ease;
+   outline: none;
+}
+
+
+
+@media (max-width:800px){
+.myOrders-order {
+  display: flex;
+  flex-wrap: wrap;
+}
+.order-status {
+  margin-top: 0px;
+}
+.address{
+    color: gray;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+}

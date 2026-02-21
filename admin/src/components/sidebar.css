@@ -1,0 +1,35 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+   
+}
+.sidebar .box{
+  padding-left: min(80px, 3vw);
+}
+.sidebar .links{
+ display: flex;
+ align-items: center;
+ padding: 8px 18px;
+ 
+ border: 2px solid #ccc;
+ border-right: none;
+ cursor: pointer;
+ border-radius: 5px 0px 0px 5px ;
+ margin-top: 30px;
+ gap:15px
+}
+.links.active {
+  background-color: #ffede6;
+  border-color: #ff5722;
+  color: #ff5722;
+}
+
+
+
+@media (max-width: 700px) {
+  .sidebar-hide{
+    display:none;
+  }
+}
+
+

@@ -1,0 +1,70 @@
+.add .flex-coln{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.add{
+    margin: min(50px, 4vw);
+    color: #6d6d6d;
+    width: 30%;
+}
+.add p{
+    padding-bottom: 10px;
+}
+.add img{
+    cursor: pointer;
+    width: 150px;
+}
+.flex-row{
+    display: flex;
+    flex-direction:row ;
+    gap: 20px;
+}
+.flex-coln2{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-group .name {
+    padding: 10px 137px 10px 10px;
+    border-radius: 5px;
+    border:1.5px solid tomato;
+    cursor: pointer; 
+}
+.flex-coln2 .price{
+    padding: 10px 7px;
+    border-radius: 5px;
+    border:1.5px solid tomato;
+    cursor: pointer;
+}
+.form-group .category{
+  padding: 10px 7px;
+  border:1.5px solid tomato;
+  background-color: #ffede6;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.flex-coln button{
+  font-size: large;
+  padding: 8px;
+  width: 120px;
+  border: none;
+  background-color: tomato;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width:1050px){
+ .flex-row{
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+}
+.form-group .name {
+    padding: 10px 30px 10px 10px;
+    border-radius: 3px;
+}
+}
+

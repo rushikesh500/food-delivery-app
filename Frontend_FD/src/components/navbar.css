@@ -1,0 +1,126 @@
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.navbar .logo{
+    height: 50px;
+}
+.logo-text {
+  font-size: 48px;
+  font-weight: 700;
+  color: tomato;
+  letter-spacing: 1px;
+  font-family: "Dela Gothic One", sans-serif;
+  position: relative;
+  top: -8px;
+}
+.logo-text span {
+  color: #1f7a1f;
+}
+
+.navbar .navMenu{
+ display: flex;
+ gap: 25px;
+ font-size: 20px;
+ letter-spacing: 0.3px;
+}
+.navMenu span{
+    cursor: pointer;
+    color:#2d2d2d;
+    
+}
+.navbar_right{
+    display: flex;
+    gap: 40px;
+}
+.navbar_right button{
+    font-size: 18px;
+    padding: 8px 18px 11px 18px;
+    background: #ff4d4d;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  
+}
+.navbar_right button:hover {
+  box-shadow: 0 8px 24px ;
+}
+.nav_search_icon{
+    position: relative;
+}
+.nav_search_icon .dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+    background-color: orangered;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ff4d4d;
+    color:#ff4d4d;
+}
+
+.navbar-profile{
+    position: relative;
+    cursor: pointer;
+}
+.navbar-profile .navbar-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+    padding: 10px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.09);
+}
+.navbar-profile .logout{
+     color:tomato;
+}
+.navbar-profile .navbar-profile-dropdown li{
+  padding: 4px 20px;
+  font-size: 18px;
+  
+}
+.navbar-profile:hover .navbar-profile-dropdown{
+    display: block;
+}
+
+@media(max-width:1000px){
+    .navbar .navMenu{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+.navbar{
+    height: 60px;
+}
+.logo-text {
+  font-size: 40px;
+}
+ .navbar_right{
+    display: flex;
+    gap: 20px;
+}
+.navbar_right button{
+    font-size: 18px;
+    padding: 5px 14px 9px 14px;
+}
+.navbar_right img {
+  color: #2d2d2d;
+}
+
+}

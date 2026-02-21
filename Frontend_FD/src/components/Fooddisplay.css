@@ -1,0 +1,116 @@
+.food-display {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.food-card {
+    width: 260px;
+    height: 280px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.14);
+    transition: 0.3s;
+}
+.food-img-box {
+    width: 100%;
+    height: 200px;          
+}
+.food-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+.food-info{
+    margin: 10px;
+}
+.food-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-name p{
+   font-size: large;
+}
+.food-name img{
+   height:15px;
+}
+.food-price_count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+   
+}
+.food-price_count h3{
+    color: tomato;
+   
+}
+.food-price_count img{
+  margin-top: 10px;
+}
+
+.food-add img{
+  height: 26px;
+}
+.food-count-set{
+    display: flex;
+    align-items: center;
+    gap:9px;
+    height: 27px;
+}
+.food-count-set img{
+    height: 30px;
+}
+
+@media (max-width :700px){
+    .food-display {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.food-display-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.food-card {
+    width: 100%;
+    height: 130px;
+    border-radius: 12px;
+    display: flex;
+}
+.food-img-box {
+    width: 40%;
+    height: 130px;          
+}
+
+.food-info{
+    margin: 10px;
+    width: 50%;
+}
+.food-add img{
+  height: 36px;
+  border-radius: 50px;
+  box-shadow:
+
+    0 12px 30px rgba(49, 48, 48, 0.224);
+}
+.food-name{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+.food-price_count{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+}

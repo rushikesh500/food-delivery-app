@@ -1,0 +1,37 @@
+.mobile-app{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+     margin-top: 100px;
+}
+.mobile-app p{
+    font-size: 40px;
+    font-weight: 500;
+}
+.mobile-app img {
+    height: 45px;
+    margin: 30px;
+    cursor: pointer;
+    transition: 1s;
+} 
+.mobile-app img:hover {
+    transform: scale(1.05);
+} 
+@media (max-width:1000px) {
+   .mobile-app{
+    width: 90%; 
+} 
+}
+@media (max-width:500px) {
+   .mobile-app{
+    width: 96%; 
+} 
+.mobile-app p{
+    font-size: 24px;
+}
+.mobile-app img {
+    height: 45px;
+    margin: 16px;
+ 
+} 
+}

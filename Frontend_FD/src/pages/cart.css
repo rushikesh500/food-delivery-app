@@ -1,0 +1,122 @@
+.cart{
+    margin-top: 100px;
+}
+
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: gray;
+    font-size: max(1vw 10px);
+    
+    
+}
+.cart-items-item{
+    margin: 20px 0;
+    color: black;
+}
+.cart-items-item img{
+    width: 50px;
+    border-radius: 10%;
+}
+.cart-items-item .cross{
+    color: brown;
+    cursor: pointer;
+}
+
+
+.cart-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.cart-total{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-total h2{
+    font-weight: 500;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.cart-total-details:nth-child(5){
+    color: black;
+}
+.cart-total hr{
+    margin: 12px 0;
+}
+.cart-total button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: max(15vw,200px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    transition: all 0.3s ease;
+}
+.cart-total button:hover {
+  transform: scale(1.03);
+}
+.promocode{
+    width: 38%;
+}
+.promocode p{
+    color: #555;   
+}
+.promocode-input {
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.promocode-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.promocode-input button{
+    border: none;
+    width: max(10vw,150px);
+    padding: 12px 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+@media (max-width :800px) {
+    .cart{
+    margin-top: 20px;
+    padding: 10px;
+}
+.cart-items-item{
+    margin: 10px 0;
+    color: black;
+}
+
+.cart-bottom{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.cart-total{
+    width: 98%;
+}
+.promocode{
+    width: 98%;
+}
+.cart-bottom{
+    margin-top: 50px;
+}
+}
